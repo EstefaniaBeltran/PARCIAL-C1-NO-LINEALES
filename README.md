@@ -2,12 +2,12 @@
 # REAMDE Parcial: Estructuras de Datos No Lineales
 
 ## Abstract
-En el presente trabajo se desarrollará la implementación de quince ejercicios de estructuras de datos no lineales que abordan problemas computacionales importantes. Se tendrán 6 temáticas principales, en los árboles N-arios se modeló una jerarquía universitaria, un sistema de archivos con búsqueda y eliminación recursiva, un árbol genealógico con cálculo de generaciones, un menú jerárquico de aplicación y un sistema de dependencias de software con análisis de impacto. Para los árboles Trie se implementó autocompletado con generador de sugerencias, un corrector ortográfico basado en diccionario, un clasificador de intenciones mediante árbol de decisión, un diccionario multilenguaje con significados por idioma  y un motor de búsqueda que integra Trie con heap para priorizar resultados por relevancia. Por otro lado en el módulo de tablas hash se desarrolló un registro de estudiantes con manejo de colisiones por encadenamiento y métodos mágicos (setitem y getitem), junto con una comparación experimental de rendimiento frente a los árboles Trie. Finalmente, se implementaron estructuras basadas en heaps: un heap mínimo con operaciones fundamentales, un planificador de tareas con prioridad y time stamp utilizando sobrecarga de lt, y una simulación de red que procesa paquetes según su prioridad. 
-Todas las implementaciones cumplen con type hints, docstrings estilo Google y generadores para eficiencia de memoria, demostrando su aplicabilidad en sistemas operativos, bases de datos, redes de telecomunicaciones y motores de búsqueda, donde la elección adecuada de la estructura de datos determina la eficiencia computacional del sistema.
 
-##  Descripción General
+Este repositorio contiene la solución completa al parcial, donde se desarrolla la implementación de quince ejercicios de estructuras de datos no lineales que abordan problemas computacionales importantes. Se abordan seis temáticas principales: en los árboles N-arios se modeló una jerarquía universitaria, un sistema de archivos con búsqueda y eliminación recursiva, un árbol genealógico con cálculo de generaciones, un menú jerárquico de aplicación y un sistema de dependencias de software con análisis de impacto. Para los árboles Trie se implementó autocompletado con generador de sugerencias, un corrector ortográfico basado en diccionario, un clasificador de intenciones mediante árbol de decisión, un diccionario multilenguaje con significados por idioma y un motor de búsqueda que integra Trie con heap para priorizar resultados por relevancia. Por otro lado, en el módulo de tablas hash se desarrolló un registro de estudiantes con manejo de colisiones por encadenamiento y métodos mágicos (`__setitem__` y `__getitem__`), junto con una comparación experimental de rendimiento frente a los árboles Trie. Finalmente, se implementaron estructuras basadas en heaps: un heap mínimo con operaciones fundamentales, un planificador de tareas con prioridad y timestamp utilizando sobrecarga de `__lt__`, y una simulación de red que procesa paquetes según su prioridad. Todas las implementaciones cumplen con type hints, docstrings estilo Google y generadores para eficiencia de memoria, demostrando su aplicabilidad en sistemas operativos, bases de datos, redes de telecomunicaciones y motores de búsqueda, donde la elección adecuada de la estructura de datos determina la eficiencia computacional del sistema.
 
-Este repositorio contiene la solución completa al parcial de las semanas 5 y 6 de la asignatura **Estructuras de Datos No Lineales**. Se implementan **15 ejercicios** que cubren:
+## Descripción General
+
+Este repositorio encontrarás:
 
 - **Árboles N-arios**: organización universitaria, sistema de archivos, árbol genealógico, menús de aplicación, dependencias de software.
 - **Árboles Trie**: autocompletado, corrector ortográfico, clasificador de intenciones, diccionario multilenguaje, motor de búsqueda con priorización.
@@ -15,7 +15,6 @@ Este repositorio contiene la solución completa al parcial de las semanas 5 y 6 
 - **Heaps y Colas de Prioridad**: heap mínimo, planificador de tareas, simulación de red con prioridad de paquetes.
 
 Cada ejercicio cumple con los estándares de la industria: **type hints**, **docstrings estilo Google**, **PEP8** y uso de **generadores** para recorridos eficientes en memoria. Además, se implementan métodos mágicos como `__iter__`, `__setitem__`, `__getitem__` y `__lt__` según lo requerido.
-
 
 ##  Estructura del Proyecto
 
