@@ -7,7 +7,7 @@ Este repositorio contiene la solución completa al parcial, donde se desarrolla 
 
 ## Descripción General
 
-Este repositorio encontrarás:
+Este repositorio se encontrará:
 
 - **Árboles N-arios**: organización universitaria, sistema de archivos, árbol genealógico, menús de aplicación, dependencias de software.
 - **Árboles Trie**: autocompletado, corrector ortográfico, clasificador de intenciones, diccionario multilenguaje, motor de búsqueda con priorización.
