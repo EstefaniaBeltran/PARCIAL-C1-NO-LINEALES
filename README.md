@@ -1,8 +1,6 @@
 
-# Parcial: Estructuras de Datos No Lineales
+# REAMDE Parcial: Estructuras de Datos No Lineales
 
-**Ciencias de la Computación e Inteligencia Artificial**  
-*Enfoque en Desarrollo Profesional con Python 3.10+*
 
 
 ##  Descripción General
