@@ -1,10 +1,9 @@
-```markdown
+
 # Parcial: Estructuras de Datos No Lineales
 
 **Ciencias de la Computación e Inteligencia Artificial**  
 *Enfoque en Desarrollo Profesional con Python 3.10+*
 
----
 
 ##  Descripción General
 
@@ -17,11 +16,10 @@ Este repositorio contiene la solución completa al parcial de las semanas 5 y 6 
 
 Cada ejercicio cumple con los estándares de la industria: **type hints**, **docstrings estilo Google**, **PEP8** y uso de **generadores** para recorridos eficientes en memoria. Además, se implementan métodos mágicos como `__iter__`, `__setitem__`, `__getitem__` y `__lt__` según lo requerido.
 
----
 
 ##  Estructura del Proyecto
 
-```
+```bash
 ├── src/                          # Código fuente de los ejercicios
 │   ├── ejercicio01.py            # Estructura Organizacional (Árbol N-ario)
 │   ├── ejercicio02.py            # Sistema de Archivos
@@ -41,16 +39,17 @@ Cada ejercicio cumple con los estándares de la industria: **type hints**, **doc
 ├── tests/                         # Pruebas unitarias (unittest)
 │   └── test_ejercicios.py         # Archivo único con todos los tests
 ├── README.md                       # Este archivo
+├── INFORME                        # Archivo con toda la parte 1 .pdf
 ```
 
----
+
 
 ##  Requerimientos
 
 - Python **3.10** o superior.
 - No se requieren librerías externas; todo se implementa con la biblioteca estándar (`heapq`, `typing`, `datetime`, etc.).
 
----
+
 
 ##  Ejecución
 
@@ -65,7 +64,6 @@ python src/ejercicio15.py
 
 Todos los archivos incluyen un bloque `if __name__ == "__main__":` que ejecuta un ejemplo demostrativo de la funcionalidad implementada.
 
----
 
 ##  Pruebas Unitarias
 
@@ -89,7 +87,7 @@ Las pruebas verifican:
 - Ordenamiento por prioridad en heaps.
 - Manejo de colisiones en tabla hash.
 
----
+
 
 ##  Análisis de Complejidad Big O
 
@@ -131,7 +129,7 @@ Las pruebas verifican:
 | Extracción (heappop)    | O(log n)    |
 | Consulta del mínimo     | O(1)        |
 
----
+
 
 ##  Características Implementadas
 
@@ -144,10 +142,6 @@ Las pruebas verifican:
   - `__lt__` en las clases `Tarea` y `Paquete` para ordenamiento en heaps (Ejercicios 14 y 15).
 - Manejo de colisiones en tabla hash mediante **encadenamiento**.
 - **Comparación experimental** entre Hash y Trie (Ejercicio 12) con medición de tiempos.
-- **Cumplimiento de PEP8** en nombres y formato.
-
----
 
 
-*Entrega correspondiente al parcial de Estructuras de Datos No Lineales.*
-```
+
